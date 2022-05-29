@@ -3,11 +3,16 @@ import { ButtonContainer } from "./button.elements";
 
 
  
-const ChangeSlideButton = ({whichArrow}) => {
+const ChangeSlideButton = ({whichArrow,clickOnButton}) => {
     return (
-        <div>
-            <ButtonContainer whichArrow={whichArrow}></ButtonContainer>
-        </div>
+     
+            <ButtonContainer 
+                whichArrow={whichArrow}
+                onClick={clickOnButton}
+                >
+
+            </ButtonContainer>
+      
 
     
     )

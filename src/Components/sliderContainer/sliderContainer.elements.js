@@ -10,4 +10,15 @@ export const SliderWrapper = styled(Container)`
     position : relative;
 `;
 
+export const SliderFalgContainer = styled.div`
+    display : flex;
+    width : auto;
+    height : auto;
+    padding : .5rem;
+    position : absolute;
+    bottom : 1rem;
+    left : 45%;
+   
+`;
+
 
