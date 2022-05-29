@@ -8,7 +8,7 @@ const ChangeSlideButton = ({whichArrow,clickOnButton}) => {
      
             <ButtonContainer 
                 whichArrow={whichArrow}
-                onClick={clickOnButton}
+                onClick={() => clickOnButton(whichArrow)}
                 >
 
             </ButtonContainer>

@@ -2,9 +2,9 @@ import {
     FlagContainer,
 } from './SliderFlag.elements';
 
-const SliderFlag = ({color}) => {
+const SliderFlag = ({color,slideID,currentSlideID}) => {
     return (
-        <FlagContainer bgColor={color}></FlagContainer>
+        <FlagContainer bgColor={color} slideID={slideID} currentSlideID={currentSlideID}></FlagContainer>
     )
 }
 

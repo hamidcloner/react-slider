@@ -11,5 +11,5 @@ export const FlagContainer = styled.div`
     border : 1px solid gray;
     border-radius : 50%;
     margin : 0 .2rem;
-    background-color : ${({bgColor}) => bgColor};
+    background-color : ${({bgColor,slideID,currentSlideID}) => slideID === currentSlideID ? bgColor : 'transparent'};
 `;
